@@ -1,0 +1,37 @@
+.projs_container{
+  font-size:0;
+  margin-bottom:25px;
+}
+.projs_header{
+  width:100%;
+  font-size:20px;
+  text-align:center;
+  background-color:#D1EAFD;
+  color:black;
+  border-radius:22px;
+  margin-bottom:0.5%;
+}
+@media only screen and (min-width:700px){.projs_header{
+  font-size:28px;
+}}
+.proj{
+  background-color:#D1EAFD;
+  border-radius:20px;
+  width:calc((100% - 3%) / 3);
+  font-size:0;
+  margin:0.5%;
+  display:inline-block;
+  color:#A4D5FB;
+  text-align:center;
+  cursor:pointer;
+}
+.icon{
+  height:0;
+  padding-top:100%;
+  width:100%;
+  margin:0;
+  border-radius:22px;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
